@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  html {
+    @apply h-full scroll-smooth;
+  }
+  body {
+    @apply h-full;
+  }
+  #app {
+    @apply h-full;
+  }
+  .width-mobile {
+    @apply w-full md:w-[450px];
+  }
+  .page-content {
+    @apply w-full mt-14 mb-4;
+  }
+  .basic-card {
+    @apply rounded-lg border-2 border-brown-900 bg-yellow-100;
+  }
+}
